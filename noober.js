@@ -16,7 +16,7 @@ let rides = json
  
  for (let x=0; x < ride.length; x++) {
    
-   if (ride.length > 1) {
+   if (ride.length > 1 && ride[0].numberOfPassengers == 1) {
      levelOfService = 'Noober Pool'
    } 
    else if (ride[0].purpleRequested == true){
@@ -264,6 +264,7 @@ outputElement.insertAdjacentHTML('beforeend', `
  
 
   }
-}
+
 
 window.addEventListener('DOMContentLoaded', pageLoaded)
+}
