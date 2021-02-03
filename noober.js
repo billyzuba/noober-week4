@@ -265,6 +265,5 @@ outputElement.insertAdjacentHTML('beforeend', `
 
   }
 
-
-window.addEventListener('DOMContentLoaded', pageLoaded)
 }
+window.addEventListener('DOMContentLoaded', pageLoaded)
